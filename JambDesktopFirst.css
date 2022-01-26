@@ -1,0 +1,364 @@
+.jamb{  
+    display: inline;
+    color: green;
+    font-size: 35px;  
+}
+.coat{
+    float: left;
+     padding-left: 180px; 
+}
+.jl{
+    float: right; 
+    padding-right: 30px; 
+}
+
+.headerimage{
+    width: 80%;
+}
+
+.en{
+    color: red;
+    font-style: italic;
+    font-size: 25px;
+}
+ul{
+    float: left;
+    padding: 0px;
+    width: 100%;
+    margin-top: 0%;
+    list-style-type: none;
+    background-color: green;
+    border-style: double;
+    border-color: red;   
+}
+ul li{
+    float: left;  
+}
+.and{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.and:hover{
+    background-color: white;
+    color: green;
+    transition: .4s;
+}
+.jambstu{
+    margin-top: 0px;
+}
+.sti{
+    position: sticky;
+    top: 0px;
+    z-index: +1;
+}
+.img{
+    border-style: none;
+    
+    /* width: 100%; */
+    background-color:rgb(226, 226, 226);
+    /* overflow: auto; */
+}
+.regis{
+    display: flex;
+    width: 80%;
+    background-color:rgb(226, 226, 226);
+    border-style: double; 
+}
+
+.regi{
+    border-radius: 50%;
+}
+
+.registrar {
+ margin-right: 1%;
+    background-color: white;
+}
+
+.mandate{
+   
+    margin-left: 1%;
+    background-color: white;
+   
+}
+
+.footer{
+    
+
+    background-color: green;
+}
+
+.divna{
+    border-style: solid;
+    
+}
+nav{
+    background-color: green;
+    padding: 15px;
+}
+
+.ade{
+    padding: 15px;
+    padding-right: 25px;
+    text-decoration: none;
+    margin-left: 0px;
+    color: white;
+    justify-content: center;
+}
+
+.ade:hover{
+    background-color: white;
+    color: green;
+}
+
+marquee{
+    background-color: green;
+    color: white;
+    transition-delay: 5s;
+    padding: 10px;
+}
+
+.quick{
+    background-color: white;
+    width:900px;
+    border-style:none none solid none;
+
+    background-color:rgb(226, 226, 226); 
+}
+.paren {
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr); */
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    border-style: double;
+    width: 80%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 5; border-style: none none solid none; font-weight: lighter; border-width: thin; border-color: gainsboro; padding-top: 10px; }
+    .div2 { grid-area: 2 / 1 / 3 / 2; border-style: solid ; border-width: thin ; border-color: gainsboro;}
+    .div3 { grid-area: 2 / 2 / 3 / 3; border-style: solid; border-width: thin ; border-color: gainsboro;}
+    .div4 { grid-area: 2 / 3 / 3 / 4; border-style: solid; border-width: thin ; border-color: gainsboro;}
+    .div5 { grid-area: 2 / 4 / 3 / 5; border-style: solid; border-width: thin ; border-color: gainsboro;}
+    .div6 { grid-area: 3 / 1 / 4 / 2; border-style: solid; border-width: thin ; border-color:gainsboro;}
+    .div7 { grid-area: 3 / 2 / 4 / 3; border-style: solid; border-width: thin ; border-color: gainsboro;}
+    .div8 { grid-area: 3 / 3 / 4 / 4; border-style: solid; border-width: thin ; border-color: gainsboro;}
+    .div9 { grid-area: 3 / 4 / 4 / 5; border-style: solid; border-width: thin ; border-color: gainsboro;}
+
+    .imga{
+        border-radius: 50%;
+    width: 150px;
+    }
+    .imga:hover{
+        opacity: 0.5;
+    }
+
+   
+
+
+    .fit{
+
+        color: black;
+    }
+    
+
+    .fit:hover{
+        color: tomato;
+    }
+    .carousel.slide{
+        width: 80%;
+        
+    }
+
+
+
+
+
+@media (max-width: 768px) {
+    .jamb{  
+        display: inline;
+        color: green;
+        font-size: 35px;  
+    }
+    .coat{
+        float: left;
+         padding-left: 180px; 
+    }
+    .jl{
+        float: right; 
+        padding-right: 30px; 
+    }
+    .en{
+        color: red;
+        font-style: italic;
+        font-size: 25px;
+    }
+
+    .headerimage{
+        width: 80%;
+    }
+    ul{
+        float: left;
+        padding: 0px;
+        width: 100%;
+        margin-top: 0%;
+        list-style-type: none;
+        background-color: green;
+        border-style: double;
+        border-color: red;   
+    }
+    ul li{
+        float: left;  
+    }
+    .and{
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+    }
+    .and:hover{
+        background-color: white;
+        color: green;
+        transition: .4s;
+    }
+    .jambstu{
+        margin-top: 0px;
+    }
+
+   
+    .sti{
+        position: sticky;
+        top: 0px;
+        z-index: +1;
+    }
+    .img{
+        border-style: none;
+        
+        /* width: 100%; */
+        background-color:rgb(226, 226, 226);
+        /* overflow: auto; */
+    }
+    
+    .regis{
+        display: block;
+        width: 80%;
+        background-color:rgb(226, 226, 226);
+        border-style: double; 
+    }
+    
+    .regi{
+        border-radius: 50%;
+    }
+    
+    .registrar {
+     margin-right: 1%;
+        background-color: white;
+    }
+    
+    .mandate{
+       
+        margin-left: 1%;
+        background-color: white;
+       
+    }
+    
+    .footer{
+        
+    
+        background-color: green;
+    }
+    
+    .divna{
+        border-style: solid;
+        
+    }
+    nav{
+        background-color: green;
+        padding: 15px;
+    }
+    
+    .ade{
+        padding: 15px;
+        padding-right: 25px;
+        text-decoration: none;
+        margin-left: 0px;
+        color: white;
+        justify-content: center;
+        display: block;
+    }
+    
+    .ade:hover{
+        background-color: white;
+        color: green;
+    }
+    
+    marquee{
+        background-color: green;
+        color: white;
+        transition-delay: 5s;
+        padding: 10px;
+    }
+    
+    .quick{
+        background-color: white;
+        width:900px;
+        border-style:none none solid none;
+    
+        background-color:rgb(226, 226, 226); 
+    }
+    .paren {
+        display: block;
+        /* grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr); */
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        border-style: double;
+        width: 80%;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 5; border-style: none none solid none; font-weight: lighter; border-width: thin; border-color: gainsboro; padding-top: 10px; }
+        .div2 { grid-area: 2 / 1 / 3 / 2; border-style: solid ; border-width: thin ; border-color: gainsboro;}
+        .div3 { grid-area: 2 / 2 / 3 / 3; border-style: solid; border-width: thin ; border-color: gainsboro;}
+        .div4 { grid-area: 2 / 3 / 3 / 4; border-style: solid; border-width: thin ; border-color: gainsboro;}
+        .div5 { grid-area: 2 / 4 / 3 / 5; border-style: solid; border-width: thin ; border-color: gainsboro;}
+        .div6 { grid-area: 3 / 1 / 4 / 2; border-style: solid; border-width: thin ; border-color:gainsboro;}
+        .div7 { grid-area: 3 / 2 / 4 / 3; border-style: solid; border-width: thin ; border-color: gainsboro;}
+        .div8 { grid-area: 3 / 3 / 4 / 4; border-style: solid; border-width: thin ; border-color: gainsboro;}
+        .div9 { grid-area: 3 / 4 / 4 / 5; border-style: solid; border-width: thin ; border-color: gainsboro;}
+    
+        .imga{
+            border-radius: 50%;
+        width: 150px;
+        }
+        .imga:hover{
+            opacity: 0.5;
+        }
+    
+       
+    
+    
+        .fit{
+    
+            color: black;
+        }
+        
+    
+        .fit:hover{
+            color: tomato;
+        }
+        .carousel.slide{
+            width: 80%;
+            
+        }
+    
+}
+
+
+@media (max-width: 425px) {
+
+
+
+
+   
+}
