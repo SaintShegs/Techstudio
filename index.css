@@ -116,6 +116,12 @@
         width: 100%;
         height: 100%;
     }
+    .hr{
+        width: 10%;
+        background-color: blue;
+        height: 4px;
+        
+    }
     .but{
         background-color: rgb(24, 126, 209);
         width: 102%;
@@ -166,12 +172,12 @@
     padding: 2%;
     }
     .group{
-        width: 375px;
+        width: 280px;
         margin-top: 5%;
         
     }
     .aa{
-        width: 400px;
+        width: 335px;
     }
     .butt{
         background-color: rgb(24, 126, 209);
@@ -205,7 +211,7 @@
         padding: 0%;
     }
     .studio{
-        width: 405px;
+        width: 330px;
         padding-left: 0%;
     }
     .world{
@@ -230,7 +236,7 @@
     }
     
     .student{
-        width: 370px;
+        width: 290px;
         padding-left: 10%; 
         padding-top: 10%;
     }
@@ -260,7 +266,7 @@
             /* border-style: solid; */
             background-color: rgb(24, 126, 209);
             width: 98%;
-            height: 80px;
+            height: 100px;
            display: flex;
             border-radius: 5px;
             
@@ -344,12 +350,12 @@
            width: 30px;
        }
        .news{
-           width: 300px;
+           width: 260px;
            height: 50px;
            border-radius: 5px;
        }
        .letter{
-           width: 309px;
+           width: 265Px;
            height: 50px;
            margin-top: 5px;
            border-radius: 5px;
@@ -1060,14 +1066,14 @@
             background-color: white;
             border-radius: 5px;
             font-family: calibri;
-            width: 55%;
+            width: 95%;
             padding: 1%;
         }
         .amo{
             color: white;
             background-color: rgb(209, 64, 64);
             margin-left: 0%;
-            margin-top: 0%;
+            margin-top: 2%;
             padding: 5%;
             width: 87%;
             /* border-style: solid; */
