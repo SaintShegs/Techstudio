@@ -128,7 +128,7 @@
     .but{
         background-color: rgb(24, 126, 209);
         width: 102%;
-        height: 190%;
+        height: 150%;
         color: white;
         border-style: none;
         cursor: pointer;
@@ -221,8 +221,11 @@
         padding: 0%;
     }
     .studio{
-        width: 330px;
-        padding-left: 0%;
+        /* width: 330px;
+        padding-left: 0%; */
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
     }
     .world{
         /* border-style: solid; */
@@ -246,9 +249,12 @@
     }
     
     .student{
-        width: 290px;
+        /* width: 290px;
         padding-left: 10%; 
-        padding-top: 10%;
+        padding-top: 10%; */
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
     }
     
     .funde{
@@ -268,9 +274,12 @@
         }
     
         .smile{
-            width: 290px;
+            /* width: 290px; */
             /* padding-left: 3%; */
-            margin-left: 3%; 
+            /* margin-left: 3%;  */
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
         }
         .interest{
             /* border-style: solid; */
@@ -318,7 +327,7 @@
         border-radius: 5px;
         cursor: pointer;
         margin-top: -3%;
-        margin-left: 3%;
+        margin-left: 5%;
         }
     
         .funblue{
@@ -544,7 +553,7 @@
        
     }   
     .abo{
-        width: 100%;
+        /* width: 100%; */
         text-align:  center;
         /* border-style: double; */
         margin-right: 1%;
@@ -552,7 +561,7 @@
         
     }
     .abot{
-        width: 100%;
+        /* width: 100%; */
         text-align:  center;
         /* border-style: double; */
         margin-left: 0%;
@@ -575,7 +584,10 @@
         
     }
     .aa{
-        width: 400px;
+        /* width: 400px; */
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
     }
     .butt{
         background-color: rgb(24, 126, 209);
@@ -959,7 +971,10 @@
         
     }
     .aa{
-        width: 400px;
+        /* width: 400px; */
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
     }
     .butt{
         background-color: rgb(24, 126, 209);
@@ -1341,7 +1356,10 @@
         
     }
     .aa{
-        width: 650px;
+        /* width: 650px; */
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
     }
     .butt{
         background-color: rgb(24, 126, 209);
