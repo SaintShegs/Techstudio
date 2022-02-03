@@ -1225,6 +1225,7 @@
         display: flex;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-top: auto;
         
     }
     .jfs{
@@ -1615,6 +1616,7 @@
         display: flex;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-top: auto;
         
     }
     .jfs{
@@ -1992,6 +1994,7 @@
         display: flex;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-top: unset;
         
     }
     .jfs{
@@ -2153,7 +2156,7 @@
         width: 45%;
         font-family: calibri;
         /* border-style: solid; */
-        padding: 5%;
+        padding: unset;
     }
     .studio{
         width: 900px;
