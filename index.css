@@ -47,7 +47,7 @@
         /* border-style: solid; */
         color: white;
         margin-left : 5%;
-        margin-top: 15px;
+        margin-top: 0px;
         padding-top: 1%;
         margin-right: 20px;
         font-family: Calibri;
@@ -351,7 +351,7 @@
             color: white;
             background-color: rgb(209, 64, 64);
             margin-left: 0%;
-            margin-top: 2%;
+            margin-top: 5%;
             padding: 5%;
             width: 87%;
             /* border-style: solid; */
@@ -452,7 +452,7 @@
         display: block;
         background-repeat: no-repeat;
         background-size: cover;
-        
+        margin-top: 3%;
     }
     .jfs{
         width: 85%;
@@ -579,7 +579,7 @@
     padding: 2%;
     }
     .group{
-        width: 375px;
+        width: 420px;
         margin-top: 5%;
         
     }
@@ -615,10 +615,11 @@
         display: flex;
     }
     .fund{
-        width: 50%;
+        width: auto;
         font-family: calibri;
         /* border-style: solid; */
         padding: 0%;
+        margin-left: 3%;
     }
     .studio{
         width: 405px;
@@ -668,7 +669,7 @@
         }
     
         .smile{
-            width: 375px;
+            width: 430px;
             /* padding-left: 3%; */
             margin-left: 3%; 
         }
@@ -732,7 +733,7 @@
             color: white;
             background-color: rgb(209, 64, 64);
             margin-left: 0%;
-            margin-top: 2%;
+            margin-top: 5%;
             padding: 5%;
             width: 87%;
             /* border-style: solid; */
@@ -940,7 +941,7 @@
        
     }   
     .abo{
-        width: 100%;
+        /* width: 100%; */
         text-align:  center;
         /* border-style: double; */
         margin-right: 1%;
@@ -948,7 +949,7 @@
         
     }
     .abot{
-        width: 100%;
+        /* width: 100%; */
         text-align:  center;
         /* border-style: double; */
         margin-left: 0%;
@@ -966,7 +967,7 @@
     padding: 2%;
     }
     .group{
-        width: 375px;
+        width: 530px;
         margin-top: 5%;
         
     }
@@ -1002,13 +1003,13 @@
         display: flex;
     }
     .fund{
-        width: 50%;
+        width: auto;
         font-family: calibri;
         /* border-style: solid; */
         padding: 0%;
     }
     .studio{
-        width: 405px;
+        width: 560px;
         padding-left: 0%;
     }
     .world{
@@ -1033,7 +1034,7 @@
     }
     
     .student{
-        width: 370px;
+        width: 480px;
         padding-left: 10%; 
         padding-top: 10%;
     }
@@ -1055,7 +1056,7 @@
         }
     
         .smile{
-            width: 375px;
+            width: 500px;
             /* padding-left: 3%; */
             margin-left: 3%; 
         }
@@ -1119,7 +1120,7 @@
             color: white;
             background-color: rgb(209, 64, 64);
             margin-left: 0%;
-            margin-top: 2%;
+            margin-top: 5%;
             padding: 5%;
             width: 87%;
             /* border-style: solid; */
@@ -1393,16 +1394,19 @@
         padding: 5%;
     }
     .studio{
-        width: 550px;
-        padding-left: 5%;
+        /* width: 550px;
+        padding-left: 5%; */
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
     }
     .world{
         /* border-style: solid; */
-        padding: 10%;
+        padding: 2%;
         position: relative;
-        right: 15%;
-        top: 10%;
-        box-shadow: 0px 0px 9px 0px rgb(236, 236, 236);
+        right: 40%;
+        top: 13%;
+        box-shadow: 0px 0px 9px 0px rgb(236 236 236);
         background-color: white;
         border-radius: 3%;
         font-family: calibri;
@@ -1504,7 +1508,7 @@
             margin-left: 5%;
             padding: 4%;
             margin-top: 0%;
-            width: 30%;
+            width: 25%;
             /* border-style: solid; */
             border-radius: 5px;
             font-family: calibri;
@@ -1519,12 +1523,12 @@
        .log{
            /* border-style: solid; */
            /* background-color: brown; */
-           width: 25%;
+           width: 35%;
        }
        .sign{
            width: 38%;
            /* background-color: brown; */
-           margin-left: 15%;
+           margin-left: 0%;
        }
        .logo{
            width: 30px;
@@ -1543,7 +1547,7 @@
        .social{
         width: 38%;
         /* background-color: brown; */
-        margin-left: 10%;
+        margin-left: 9%;
        }
        .fa{
            text-decoration: none;
@@ -1561,6 +1565,12 @@
       cursor: pointer;
        bottom: 10%;
       right: 5%;
+   }
+   .world1{
+       width: 60%;
+   }
+   .world2{
+       width: 40%;
    }
 
 }
@@ -1778,13 +1788,13 @@
         /* border-style: solid; */
         padding: 10%;
         position: relative;
-        right: 15%;
-        top: 15%;
-        box-shadow: 0px 0px 9px 0px rgb(236, 236, 236);
+        right: 25%;
+        top: 13%;
+        box-shadow: 0px 0px 9px 0px rgb(236 236 236);
         background-color: white;
         border-radius: 3%;
         font-family: calibri;
-        font-size: 15px;
+        font-size: 10px;
     }
     .reg{
         color: rgb(65, 87, 216);
@@ -1902,18 +1912,18 @@
        .sign{
            width: 38%;
            /* background-color: brown; */
-           margin-left: 15%;
+           margin-left: 3%;
        }
        .logo{
            width: 30px;
        }
        .news{
-           width: 450px;
+           width: 400px;
            height: 50px;
            border-radius: 5px;
        }
        .letter{
-           width: 457px;
+           width: 408px;
            height: 50px;
            margin-top: 5px;
            border-radius: 5px;
